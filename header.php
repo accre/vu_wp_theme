@@ -21,12 +21,12 @@ $whichbrand = get_option('vubrand_brandbar');
 <meta name="keywords" content="vanderbilt, vanderbilt university, commodores, nashville, tennessee" />
 <?php endif; ?>
 
-<link rel="stylesheet" type="text/css" href="http://www.vanderbilt.edu/asset/css/vustylemin.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="http://www.vanderbilt.edu/asset/css/print.css" media="print" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://www4.vanderbilt.edu/asset/css/vustylemin.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="https://www4.vanderbilt.edu/asset/css/print.css" media="print" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 
 <script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
-<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=vanderbilt"></script>
+<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#username=vanderbilt"></script>
 
 <?php // if is home page and slider option is ON
 if ( (get_option('vubrand_slideron') == 'true') && (is_front_page()) ) { ?>
@@ -46,10 +46,10 @@ if ( (get_option('vubrand_slideron') == 'true') && (is_front_page()) ) { ?>
 	});
 	</script>
 <?php } ?>
-<!--[if lt IE 9]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta3)/IE9.js"></script>
-<link rel="stylesheet" type="text/css" href="http://www.vanderbilt.edu/asset/css/ie.css" media="screen" /><![endif]-->
-<!--[if IE 6]><link rel="stylesheet" type="text/css" href="http://www.vanderbilt.edu/asset/css/ie6.css" media="screen" />
-<script src="http://www.vanderbilt.edu/asset/scripts/pngie.js"></script>
+<!--[if lt IE 9]><script src="https://ie7-js.googlecode.com/svn/version/2.1(beta3)/IE9.js"></script>
+<link rel="stylesheet" type="text/css" href="https://www4.vanderbilt.edu/asset/css/ie.css" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="https://www4.vanderbilt.edu/asset/css/ie6.css" media="screen" />
+<script src="https://www4.vanderbilt.edu/asset/scripts/pngie.js"></script>
 <![endif]-->
 <!--[if lte IE 7]>
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/style-ie.css" type="text/css" media="screen" />
@@ -81,7 +81,7 @@ elseif($whichbrand=='Owen') { $brand='owen'; }
 elseif($whichbrand=='Peabody') { $brand='peabody'; }
 else { $brand='vu'; }
 ?>
-<script type="text/javascript" src="http://www.vanderbilt.edu/asset/<?php echo $brand;?>brandbar.js"></script>
+<script type="text/javascript" src="https://www4.vanderbilt.edu/asset/<?php echo $brand;?>brandbar.js"></script>
 
 
 <div id="content">
